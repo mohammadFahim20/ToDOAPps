@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+background-color: #333;
+padding: 1rem;
+
+}
+
+
+.card{
+
+background-color: #222;
+color: white;
+padding: 1rem;
+min-height: 80vh;
+width: 50%;
+overflow: scroll;
+border-radius: 0.6rem;
+
+}
+.card-title{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+
+input{
+
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    width: 80%;
+}
+
+
+
+.btn{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 00.5rem;
+    background-color: orange;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    width: 19%;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.card-body{
+
+
+
+}
+
+
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem;
+
+    transition: all 0.3s;
+
+
+
+}
+.li-style:hover{
+    background-color: #111;
+}
+
+
+.bg-sucess{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ddffdd;
+    border-left: 6px solid #04aa6d;
+}
+
+
+.bg-danger{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: #e02a2a;
+    border-left: 6px solid #f44336;
+}
+
+
+
+
+
+
+
+
+
+.card-two{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+min-height: 80vh;
+width: 50%;
+overflow: scroll;
+border-radius: 0.6rem;
+}
+
+
+
+
+#icon{
+    color: tomato;
+    border-radius: 50%;
+  }
+#moon{
+    color: #04aa6d;
+    border-radius: 50%;
+}
+
+/* responsive */
+
+@media screen and (max-width:992px) {
+
+
+
+    
+.card{
+
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    min-height: 95vh;
+    width: 100%;
+    overflow: scroll;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    }
+
+
+    .container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #333;
+        padding: 1rem;
+       
+        
+        }
+
+        
+
+        input{
+
+            border: none;
+            border-radius: 0.6rem;
+            padding: 0.5rem;
+            width: 79%;
+            height: 45px;
+            /* margin-top: px; */
+            display: inline-block;
+
+        }
+
+
+
+.btn{
+    
+    border: none;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    background-color: orange;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    width: 19%;
+    margin-top: 0;
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     display: inline-block;
+    
+     
+   
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+        
+
+  .dlt-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    background-color: orange;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    width: 19%;
+    margin-top: 0;
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     
+    
+     
+  }
+
+  
+.card-two{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    min-height: 95vh;
+    width: 100%;
+    overflow: scroll;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+}
